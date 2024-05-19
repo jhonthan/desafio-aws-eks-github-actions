@@ -25,6 +25,13 @@ In this process, the idea is to create a new EKS (Elastic Kubernetes Service) us
  - `AWS_BUCKET_FILE` = This secret is the file on the bucket in S3, eg `my-state.tf`.
 
 
+### ⌛ Testing the result
+
+1. After the creation of EKS with Github Action, is posible to test the EKS with the commands
+ - `aws eks update-kubeconfig --name eks` = Will get the Kubeconfig with the parameters of EKS.
+ - `kubectl get nodes` = Check the number of the nodes created by the project.
+
+
 ### 📂 Diagram
 
 ![Diagrams](./diagrams/pipeline.drawio.png)
