@@ -27,7 +27,7 @@ jobs:
 
       - name: "Terraform init" 
         working-directory: ./terraform
-        run: terraform init -backend-config="bucket=${{ secrets.AWS_BUCKET_NAME }}" -backend-config="key=${{ secrets.AWS_BUCKET_KEY }}"
+        run: terraform init -backend-config="bucket=${{ secrets.AWS_BUCKET_NAME }}" -backend-config="key=${{ secrets.AWS_BUCKET_FILE }}"
       
       - name: "Terraform Apply"
         working-directory: ./terraform
