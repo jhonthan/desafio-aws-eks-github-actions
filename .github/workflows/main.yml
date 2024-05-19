@@ -1,6 +1,6 @@
 # Local to found the actions - https://github.com/marketplace
 
-name: "terraform"
+name: "terraform apply"
 
 on:
   push: 
