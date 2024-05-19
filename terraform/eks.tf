@@ -19,6 +19,7 @@ module "eks" {
       max_size       = 2
       desired_size   = 2
       instance_types = var.aws_eks_managed_node_group_instance_types
+      tags           = var.aws_project_tags
     }
   }
 }
