@@ -25,6 +25,6 @@ In this process, the idea is to create a new EKS (Elastic Kubernetes Service) us
  - `AWS_BUCKET_FILE` = This secret is the file on the bucket in S3, eg `my-state.tf`.
 
 
-### 🚀 Diagram
+### 📂 Diagram
 
 ![Diagrams](./diagrams/pipeline.drawio.png)
