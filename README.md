@@ -11,6 +11,7 @@ In this process, the idea is to create a new EKS (Elastic Kubernetes Service) us
    + [AWS Provider] (https://registry.terraform.io/providers/hashicorp/aws)
    + [AWS PVC Module] (https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws)
    + [AWS EKS Module] (https://registry.terraform.io/modules/terraform-aws-modules/eks/aws)
+   + [AWS EKS IAM Permission] (https://docs.aws.amazon.com/eks/latest/userguide/view-kubernetes-resources.html#view-kubernetes-resources-permissions)
 + [GitHub](https://www.github.com)
     + [GitHub-Actions](https://www.github.com/features/actions)
     + [GitHub-Actions-Marketplace](https://github.com/marketplace)

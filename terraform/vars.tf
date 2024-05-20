@@ -1,3 +1,10 @@
+variable "aws_account_id" {
+  description = "Define the Account ID of AWS"
+  type        = string
+  nullable    = false
+}
+
+
 variable "aws_region" {
   description = "Region of the resources in AWS"
   type        = string
@@ -43,7 +50,7 @@ variable "aws_vpc_public_subnets" {
 variable "aws_eks_name" {
   description = "Define the name of EKS"
   type        = string
-  default     = "live-eks"
+  default     = "eks"
   nullable    = false
 }
 

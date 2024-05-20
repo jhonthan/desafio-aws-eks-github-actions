@@ -1,6 +1,6 @@
 module "eks" {
   source  = "terraform-aws-modules/eks/aws"
-  version = "20.11.0"
+  version = "20.8.5"
 
   cluster_name    = var.aws_eks_name
   cluster_version = var.aws_eks_version
@@ -13,7 +13,7 @@ module "eks" {
   cluster_endpoint_public_access = true
 
   # EKS Managed Node Group(s)
-  eks_managed_node_group_defaults = {
+  eks_managed_node_groups = {
     default = {
       min_size       = 2
       max_size       = 2
@@ -22,4 +22,6 @@ module "eks" {
       tags           = var.aws_project_tags
     }
   }
+
+  tags = var.aws_project_tags
 }
