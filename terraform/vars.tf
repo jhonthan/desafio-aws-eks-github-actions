@@ -1,8 +1,8 @@
-variable "aws_account_id" {
-  description = "Define the Account ID of AWS"
-  type        = string
-  nullable    = false
-}
+# variable "aws_account_id" {
+#   description = "Define the Account ID of AWS"
+#   type        = string
+#   nullable    = false
+# }
 
 
 variable "aws_region" {
